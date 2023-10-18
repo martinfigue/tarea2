@@ -3,9 +3,14 @@ import java.util.ArrayList;
 public class Deposito{
     private ArrayList<Bebida> a1;
     private ArrayList<Moneda> a2;
+    private Arraylist<Dulce> a3;
     public Deposito(){
         a1 = new ArrayList();
         a2 = new ArrayList();
+        a3 = new Arraylist();
+    }
+    public void addDulce(Dulce d){
+        a3.add(d);
     }
     public void addBebida(Bebida b){
         a1.add(b);
@@ -20,6 +25,15 @@ public class Deposito{
         else{
             Bebida b = a1.remove(0);
             return b;
+        }
+    }
+    public Dulce getDulce(){
+        if(a3.size() == 0){
+            return null;
+        }
+        else{
+            Dulce d = a3.remove(0);
+            return d;
         }
     }
     public Moneda getMoneda(){
