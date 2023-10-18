@@ -47,6 +47,9 @@ public class Expendedor{
         }
         if(n==COCA  && m!=null && x>=precio){
             Bebida c = coca.getBebida();
+            if(c == null){
+                throw new NoHayProductoException("No hay mas de este producto")
+            }
             if(c != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
@@ -60,6 +63,9 @@ public class Expendedor{
         }
         else if(n==SPRITE && m != null && x>= precio) {
             Bebida s = sprite.getBebida();
+            if(s == null){
+                throw new NoHayProductoException("No hay mas de este producto")
+            }
             if(s != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
@@ -73,6 +79,9 @@ public class Expendedor{
         }
         else if(n==FANTA && m != null && x>= precio) {
             Bebida f = fanta.getBebida();
+            if(f == null){
+                throw new NoHayProductoException("No hay mas de este producto")
+            }
             if(f != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
@@ -86,6 +95,9 @@ public class Expendedor{
         }
         else if(n==SNICKERS && m != null && x>= precio) {
             Dulce k = snickers.getDulce();
+            if(k == null){
+                throw new NoHayProductoException("No hay mas de este producto")
+            }
             if(k != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
@@ -99,6 +111,9 @@ public class Expendedor{
         }
         else if(n==SUPER8 && m != null && x>= precio) {
             Dulce p = skittles.getDulce();
+            if(p == null){
+                throw new NoHayProductoException("No hay mas de este producto")
+            }
             if(p != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
