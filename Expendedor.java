@@ -33,13 +33,13 @@ public class Expendedor{
         }
     }
 
-    public Bebida comprarBebida(Moneda m, int n){
+    public Producto comprarProducto(Moneda m, int n){
         int x = 0;
         if(m != null) {
             x = m.getValor();
         }
 
-        if((n == COCA || n == SPRITE) && x < precio){
+        if((n == COCA || n == SPRITE || n == FANTA || n == SKITTLES || n == SUPER8) && x < precio){
             monVu.addMoneda(m);
         }
         if(n==COCA  && m!=null && x>=precio){
@@ -68,7 +68,46 @@ public class Expendedor{
                 monVu.addMoneda(m);
             }
         }
-        else if(n != COCA && n != SPRITE && m != null){
+        else if(n==FANTA && m != null && x>= precio) {
+            Bebida f = fanta.getBebida();
+            if(f != null){
+                for(int i = 0; i<(x - precio)/100; i++){
+                    Moneda m100 = new Moneda100();
+                    monVu.addMoneda(m100);
+                }
+                return f;
+            }
+            else{
+                monVu.addMoneda(m);
+            }
+        }
+        else if(n==SKITTLES && m != null && x>= precio) {
+            Dulce k = skittles.getDulce();
+            if(k != null){
+                for(int i = 0; i<(x - precio)/100; i++){
+                    Moneda m100 = new Moneda100();
+                    monVu.addMoneda(m100);
+                }
+                return k;
+            }
+            else{
+                monVu.addMoneda(m);
+            }
+        }
+        else if(n==SUPER8 && m != null && x>= precio) {
+            Dulce p = skittles.getDulce();
+            if(p != null){
+                for(int i = 0; i<(x - precio)/100; i++){
+                    Moneda m100 = new Moneda100();
+                    monVu.addMoneda(m100);
+                }
+                return p;
+            }
+            else{
+                monVu.addMoneda(m);
+            }
+        }
+        else if(n != COCA && n != SPRITE && n != FANTA && n != SKITTLES && n != SUPER8 && m != null){
             monVu.addMoneda(m);
         }
         return null;
