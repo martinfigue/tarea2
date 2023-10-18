@@ -1,9 +1,9 @@
 public class Expendedor{
     public static final int COCA = 1;
     public static final int SPRITE = 2;
-    public  static final int FANTA = 2;
-    public static final int SKITTLES = 2;
-    public static final int SUPER8 = 2;
+    public  static final int FANTA = 3;
+    public static final int SKITTLES = 4;
+    public static final int SUPER8 = 5;
     private Deposito coca;
     private Deposito sprite;
     private Deposito fanta;
