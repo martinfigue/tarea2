@@ -1,13 +1,23 @@
 public class Expendedor{
     public static final int COCA = 1;
     public static final int SPRITE = 2;
+    public  static final int FANTA = 2;
+    public static final int SKITTLES = 2;
+    public static final int SUPER8 = 2;
     private Deposito coca;
     private Deposito sprite;
+    private Deposito fanta;
+    private Deposito skittles;
+    private Deposito super8;
     private Deposito monVu;
     private int precio;
+    private int precio
     public Expendedor(int numBebidas, int precioBebidas){
         coca = new Deposito();
         sprite = new Deposito();
+        fanta = new Deposito();
+        skittles = new Deposito();
+        super8 = new Deposito();
         monVu = new Deposito();
         precio = precioBebidas;
         for(int i=0; i<numBebidas; i++){
