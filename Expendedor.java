@@ -36,13 +36,14 @@ public class Expendedor{
     public Producto comprarProducto(Moneda m, int n){
         int x = 0;
         if(m < 0 || m == null){
-            throw new PagoIncorrectoException("Vuelva a colocar otra moneda");
+            throw new PagoIncorrectoException("Vuelva a ingresar una moneda válida");
         }
         if(m != null) {
             x = m.getValor();
         }
 
         if((n == COCA || n == SPRITE || n == FANTA || n == SNICKERS || n == SUPER8) && x < precio){
+            throw new PagoInsuficienteException("Pago insuficiente");
             monVu.addMoneda(m);
         }
         if(n==COCA  && m!=null && x>=precio){
