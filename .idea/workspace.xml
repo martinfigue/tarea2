@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3de113d-91d9-422d-8166-c41f8359c4e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoHayProductoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/NoHayProductoException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697505030834</updated>
-      <workItem from="1697653090772" duration="4405000" />
+      <workItem from="1697653090772" duration="5655000" />
     </task>
     <servers />
   </component>
