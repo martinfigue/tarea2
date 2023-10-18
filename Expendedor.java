@@ -35,6 +35,9 @@ public class Expendedor{
 
     public Producto comprarProducto(Moneda m, int n){
         int x = 0;
+        if(m < 0 || m == null){
+            throw new PagoIncorrectoException("Vuelva a colocar otra moneda");
+        }
         if(m != null) {
             x = m.getValor();
         }
