@@ -5,7 +5,7 @@ public class Comprador{
         vuelto = 0;
         Producto p = exp.comprarProducto(m, cualProducto);
         if(p != null){
-            sonido = p.beber();
+            sonido = p.consumir();
         }
         Moneda v = exp.getVuelto();
         while(v != null){
@@ -19,7 +19,7 @@ public class Comprador{
         return vuelto;
     }
 
-    public String queBebiste(){
+    public String queConsumiste(){
         return sonido;
     }
 }

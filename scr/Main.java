@@ -5,6 +5,6 @@ public class Main {
         Comprador c;
         m = new Moneda1000();
         c = new Comprador(m,Expendedor.COCA,exp);
-        System.out.println(c.queBebiste()+", "+c.cuantoVuelto());
+        System.out.println(c.queConsumiste()+", "+c.cuantoVuelto());
     }
 }
