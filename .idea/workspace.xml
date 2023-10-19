@@ -5,38 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3de113d-91d9-422d-8166-c41f8359c4e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scr/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/.idea/tarea2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scr/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tarea2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bebida.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Bebida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CocaCola.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/CocaCola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Comprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deposito.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Deposito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dulce.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Dulce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Expendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fanta.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Fanta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Moneda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda100.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Moneda100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda1000.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Moneda1000.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda1500.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Moneda1500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Moneda500.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Moneda500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoHayProductoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/NoHayProductoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PagoIncorrectoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/PagoIncorrectoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PagoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/PagoInsuficienteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Precios.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Precios.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Snickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Snickers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Sprite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Super8.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Super8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/.idea/tarea2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scr/.idea/tarea2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +46,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scr" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697505030834</updated>
       <workItem from="1697653090772" duration="4405000" />
-      <workItem from="1697724661503" duration="807000" />
+      <workItem from="1697724661503" duration="2368000" />
     </task>
     <servers />
   </component>
