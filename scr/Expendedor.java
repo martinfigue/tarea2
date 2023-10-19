@@ -27,7 +27,7 @@ public class Expendedor{
             Super8 p = new Super8(200+i);
             coca.addBebida(c);
             sprite.addBebida(s);
-            fanta.addBebida(d);
+            fanta.addBebida(f);
             snickers.addDulce(k);
             super8.addDulce(p);
         }
@@ -35,7 +35,7 @@ public class Expendedor{
 
     public Producto comprarProducto(Moneda m, int n){
         int x = 0;
-        if(m < 0 || m == null){
+        if (m == null){
             throw new PagoIncorrectoException("Vuelva a ingresar una moneda válida");
         }
         if(m != null) {
