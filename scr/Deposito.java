@@ -3,11 +3,11 @@ import java.util.ArrayList;
 public class Deposito{
     private ArrayList<Bebida> a1;
     private ArrayList<Moneda> a2;
-    private Arraylist<Dulce> a3;
+    private ArrayList<Dulce> a3;
     public Deposito(){
         a1 = new ArrayList();
         a2 = new ArrayList();
-        a3 = new Arraylist();
+        a3 = new ArrayList();
     }
     public void addDulce(Dulce d){
         a3.add(d);
