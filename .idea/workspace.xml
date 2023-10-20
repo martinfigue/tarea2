@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3de113d-91d9-422d-8166-c41f8359c4e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/scr/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Expendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ExpendedorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ExpendedorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JUnit.ExpendedorTest">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="tarea2" />
@@ -116,10 +118,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExpendedorTest" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.ExpendedorTest3" />
         <item itemvalue="JUnit.ExpendedorTest2" />
-        <item itemvalue="JUnit.ExpendedorTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -136,27 +138,12 @@
       <workItem from="1697724661503" duration="2368000" />
       <workItem from="1697728833944" duration="4156000" />
       <workItem from="1697761683636" duration="10806000" />
+      <workItem from="1697835409451" duration="3022000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Test/ExpendedorTest.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Test/ExpendedorTest.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tarea2$Main.ic" NAME="Main Coverage Results" MODIFIED="1697771470838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

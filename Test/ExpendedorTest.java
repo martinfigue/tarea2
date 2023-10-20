@@ -18,6 +18,9 @@ class ExpendedorTest {
 
     @Test
     @DisplayName("Test comprar varios productos")
+    /** Creamos el test para probrar compras en el expendedor
+     * @return lo que compraron junto con su vuelto
+     */
     void testComprarVariosProductos() throws Exception {
         Expendedor exp = new Expendedor(3, 700);
         Moneda m;
@@ -32,8 +35,13 @@ class ExpendedorTest {
         l = new Comprador(m,Expendedor.SPRITE,exp);
         System.out.println(l.queConsumiste()+", "+l.cuantoVuelto());
     }
+
     @Test
     @DisplayName("Test NoHayProductoException")
+    /** Creamos el test para probrar la excepcion no hay producto
+     * 
+     *
+     */
     void testComprar2Productos() throws Exception {
         Exception exception = assertThrows(NoHayProductoException.class,()->{
         Expendedor exp = new Expendedor(1, 900);
