@@ -17,7 +17,7 @@ class ExpendedorTest {
     }
 
     @Test
-    @DisplayName("Test comprar un producto")
+    @DisplayName("Test comprar varios productos")
     void testComprarVariosProductos() throws Exception {
         Expendedor exp = new Expendedor(3, 700);
         Moneda m;
