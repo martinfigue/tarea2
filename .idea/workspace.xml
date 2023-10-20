@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3de113d-91d9-422d-8166-c41f8359c4e7" name="Changes" comment="" />
+    <list default="true" id="d3de113d-91d9-422d-8166-c41f8359c4e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Test/ExpendedorTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ExpendedorTest2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +89,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExpendedorTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tarea2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExpendedorTest2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExpendedorTest.pruebaCompraruUnProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tarea2" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,6 +111,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ExpendedorTest2" />
         <item itemvalue="JUnit.ExpendedorTest" />
         <item itemvalue="JUnit.ExpendedorTest.pruebaCompraruUnProducto" />
       </list>
@@ -116,7 +128,7 @@
       <workItem from="1697653090772" duration="4405000" />
       <workItem from="1697724661503" duration="2368000" />
       <workItem from="1697728833944" duration="4156000" />
-      <workItem from="1697761683636" duration="8792000" />
+      <workItem from="1697761683636" duration="9105000" />
     </task>
     <servers />
   </component>
@@ -133,5 +145,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tarea2$Main.ic" NAME="Main Coverage Results" MODIFIED="1697771470838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tarea2$ExpendedorTest.ic" NAME="ExpendedorTest Coverage Results" MODIFIED="1697771440845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -14,5 +14,17 @@ public class Main {
         catch (Exception NoHayProductoException) {
                 System.out.println("No hay mas de este producto");
         }
+        try {
+            Expendedor exp = new Expendedor(5, 700);
+            Moneda m;
+            Comprador c;
+            m = new Moneda100();
+            c = new Comprador(m,Expendedor.COCA,exp);
+            System.out.println(c.queConsumiste()+", "+c.cuantoVuelto());
+        }
+        catch (Exception PagoInsuficienteException) {
+            System.out.println("Pago insuficiente");
+        }
     }
+
 }
