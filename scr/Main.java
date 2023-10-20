@@ -1,3 +1,10 @@
+/**
+ * El main del trabajo
+ * @author ignaciodiaz
+ * @author martinfigueroa
+ * Aqui estan mostradas las funcionalidades probadas en los test 
+ */
+
 public class Main {
     public static void main(String[] args) throws Exception {
         try {
