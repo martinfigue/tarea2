@@ -8,6 +8,7 @@ class ExpendedorTest {
 
     @BeforeEach
     void setUp() {
+        Expendedor exp = new Expendedor(2, 300);
     }
 
     @AfterEach
@@ -15,10 +16,16 @@ class ExpendedorTest {
     }
 
     @Test
-    void comprarProducto() {
+    void pruebaCompraruUnProducto() throws NoHayProductoException {
+        Expendedor exp = new Expendedor(2, 300);
+        Moneda m;
+        Comprador c;
+        m = new Moneda500();
+        c = new Comprador(m,Expendedor.FANTA,exp);
+        System.out.println(c.queConsumiste()+", "+c.cuantoVuelto());
     }
 
     @Test
-    void getVuelto() {
+    void pruebagetVuelto() {
     }
 }
