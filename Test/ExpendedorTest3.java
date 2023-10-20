@@ -18,11 +18,13 @@ class ExpendedorTest3 {
     @Test
     @DisplayName("Test PagoIncorrectoException")
     void testComprarUnProducto() throws Exception {
+        Exception exception = assertThrows(PagoIncorrectoException.class,()->{
         Expendedor exp = new Expendedor(5, 700);
         Moneda m = null;
         Comprador c;
         c = new Comprador(m,Expendedor.COCA,exp);
         System.out.println(c.queConsumiste()+", "+c.cuantoVuelto());
 
+        });
     }
 }

@@ -35,6 +35,7 @@ class ExpendedorTest {
     @Test
     @DisplayName("Test NoHayProductoException")
     void testComprar2Productos() throws Exception {
+        Exception exception = assertThrows(NoHayProductoException.class,()->{
         Expendedor exp = new Expendedor(1, 900);
         Moneda m;
         Comprador c;
@@ -44,5 +45,6 @@ class ExpendedorTest {
         System.out.println(c.queConsumiste() + ", " + c.cuantoVuelto());
         i = new Comprador(m, Expendedor.SNICKERS, exp);
         System.out.println(i.queConsumiste() + ", " + c.cuantoVuelto());
+        });
     }
 }
