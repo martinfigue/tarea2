@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3de113d-91d9-422d-8166-c41f8359c4e7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/ExpendedorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ExpendedorTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="d3de113d-91d9-422d-8166-c41f8359c4e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +67,33 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.ExpendedorTest">
+    <configuration name="ExpendedorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tarea2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExpendedorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpendedorTest.pruebaCompraruUnProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tarea2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExpendedorTest" />
+      <option name="METHOD_NAME" value="pruebaCompraruUnProducto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExpendedorTest" />
+        <item itemvalue="JUnit.ExpendedorTest.pruebaCompraruUnProducto" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,7 +105,7 @@
       <workItem from="1697653090772" duration="4405000" />
       <workItem from="1697724661503" duration="2368000" />
       <workItem from="1697728833944" duration="4156000" />
-      <workItem from="1697761683636" duration="3406000" />
+      <workItem from="1697761683636" duration="3448000" />
     </task>
     <servers />
   </component>
