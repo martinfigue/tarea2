@@ -1,3 +1,8 @@
+/**
+ * El expendedor del trabajo
+ * @author ignaciodiaz
+ * @author martinfigueroa
+ */
 public class Expendedor{
     public static final int COCA = 1;
     public static final int SPRITE = 2;
@@ -11,6 +16,12 @@ public class Expendedor{
     private Deposito super8;
     private Deposito monVu;
     private int precio;
+
+    /**
+     *
+     * @param numProductos
+     * @param precioProductos
+     */
     public Expendedor(int numProductos, int precioProductos){
         coca = new Deposito();
         sprite = new Deposito();
@@ -33,6 +44,15 @@ public class Expendedor{
         }
     }
 
+    /**
+     *
+     * @param m la moneda
+     * @param n lo que se desea comprar
+     * @return lo que se compró y el vuelto si es necesario
+     * @throws PagoIncorrectoException puede lanzar esta excepcion si se ingresa una moneda que no es valida
+     * @throws PagoInsuficienteException puede lanzar esta excepcion si el pago ingresado no es suficiente
+     * @throws NoHayProductoException puede lanzar esta excepcion si en el deposito no hay mas de ese producto
+     */
     public Producto comprarProducto(Moneda m, int n) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException {
         int x = 0;
         if (m == null){
