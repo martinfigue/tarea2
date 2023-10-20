@@ -17,8 +17,8 @@ class ExpendedorTest {
     }
 
     @Test
-    @DisplayName("Test comprar un prodcuto")
-    void testComprarUnProducto() throws Exception {
+    @DisplayName("Test comprar un producto")
+    void testComprarVariosProductos() throws Exception {
         Expendedor exp = new Expendedor(3, 700);
         Moneda m;
         Comprador c;
@@ -33,7 +33,7 @@ class ExpendedorTest {
         System.out.println(l.queConsumiste()+", "+l.cuantoVuelto());
     }
     @Test
-    @DisplayName("NoHayProductoException")
+    @DisplayName("Test NoHayProductoException")
     void testComprar2Productos() throws Exception {
         Expendedor exp = new Expendedor(1, 900);
         Moneda m;
