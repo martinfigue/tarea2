@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Expendedor exp = new Expendedor(5,300);
         Moneda m;
         Comprador c;
