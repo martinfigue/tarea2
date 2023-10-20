@@ -19,8 +19,8 @@ public class Expendedor{
 
     /** Expendedor y sus depositos
      *
-     * @param numProductos
-     * @param precioProductos
+     * @param numProductos el numero de productos que tiene el expendedor
+     * @param precioProductos el precio de los productos 
      */
     public Expendedor(int numProductos, int precioProductos){
         coca = new Deposito();
