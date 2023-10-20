@@ -17,7 +17,7 @@ public class Expendedor{
     private Deposito monVu;
     private int precio;
 
-    /**
+    /** Expendedor y sus depositos
      *
      * @param numProductos
      * @param precioProductos
