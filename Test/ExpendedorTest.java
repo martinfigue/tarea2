@@ -5,6 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/** Primer test de la tarea
+ *
+ */
 class ExpendedorTest {
 
     @BeforeEach
@@ -39,7 +42,6 @@ class ExpendedorTest {
     @Test
     @DisplayName("Test NoHayProductoException")
     /** Creamos el test para probrar la excepcion no hay producto
-     * 
      *
      */
     void testComprar2Productos() throws Exception {
