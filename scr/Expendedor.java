@@ -25,11 +25,11 @@ public class Expendedor{
             Fanta f = new Fanta(200+i);
             Snickers k = new Snickers(200+i);
             Super8 p = new Super8(200+i);
-            coca.addBebida(c);
-            sprite.addBebida(s);
-            fanta.addBebida(f);
-            snickers.addDulce(k);
-            super8.addDulce(p);
+            coca.addElemento(c);
+            sprite.addElemento(s);
+            fanta.addElemento(f);
+            snickers.addElemento(k);
+            super8.addElemento(p);
         }
     }
 
@@ -43,96 +43,96 @@ public class Expendedor{
         }
 
         if((n == COCA || n == SPRITE || n == FANTA || n == SNICKERS || n == SUPER8) && x < precio){
-            monVu.addMoneda(m);
+            monVu.addElemento(m);
             throw new PagoInsuficienteException("Pago insuficiente");
         }
         if(n==COCA  && m!=null && x>=precio){
-            Bebida c = coca.getBebida();
+            Bebida c = (Bebida) coca.getElemento();
             if(c == null){
                 throw new NoHayProductoException("No hay mas de este producto");
             }
             if(c != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
-                    monVu.addMoneda(m100);
+                    monVu.addElemento(m100);
                 }
                 return c;
             }
             else{
-                monVu.addMoneda(m);
+                monVu.addElemento(m);
             }
         }
         else if(n==SPRITE && m != null && x>= precio) {
-            Bebida s = sprite.getBebida();
+            Bebida s = (Bebida) sprite.getElemento();
             if(s == null){
                 throw new NoHayProductoException("No hay mas de este producto");
             }
             if(s != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
-                    monVu.addMoneda(m100);
+                    monVu.addElemento(m100);
                 }
                 return s;
             }
             else{
-                monVu.addMoneda(m);
+                monVu.addElemento(m);
             }
         }
         else if(n==FANTA && m != null && x>= precio) {
-            Bebida f = fanta.getBebida();
+            Bebida f = (Bebida) fanta.getElemento();
             if(f == null){
                 throw new NoHayProductoException("No hay mas de este producto");
             }
             if(f != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
-                    monVu.addMoneda(m100);
+                    monVu.addElemento(m100);
                 }
                 return f;
             }
             else{
-                monVu.addMoneda(m);
+                monVu.addElemento(m);
             }
         }
         else if(n==SNICKERS && m != null && x>= precio) {
-            Dulce k = snickers.getDulce();
+            Dulce k = (Dulce) snickers.getElemento();
             if(k == null){
                 throw new NoHayProductoException("No hay mas de este producto");
             }
             if(k != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
-                    monVu.addMoneda(m100);
+                    monVu.addElemento(m100);
                 }
                 return k;
             }
             else{
-                monVu.addMoneda(m);
+                monVu.addElemento(m);
             }
         }
         else if(n==SUPER8 && m != null && x>= precio) {
-            Dulce p = snickers.getDulce();
+            Dulce p = (Dulce) snickers.getElemento();
             if(p == null){
                 throw new NoHayProductoException("No hay mas de este producto");
             }
             if(p != null){
                 for(int i = 0; i<(x - precio)/100; i++){
                     Moneda m100 = new Moneda100();
-                    monVu.addMoneda(m100);
+                    monVu.addElemento(m100);
                 }
                 return p;
             }
             else{
-                monVu.addMoneda(m);
+                monVu.addElemento(m);
             }
         }
         else if(n != COCA && n != SPRITE && n != FANTA && n != SNICKERS && n != SUPER8 && m != null){
-            monVu.addMoneda(m);
+            monVu.addElemento(m);
         }
         return null;
     }
 
     public Moneda getVuelto(){
-        return monVu.getMoneda();
+        return (Moneda) monVu.getElemento();
     }
 }
