@@ -1,19 +1,19 @@
 import java.util.ArrayList;
 
 public class Deposito<T>{
-    private ArrayList<T> elementos;
+    private ArrayList<T> content;
     public Deposito(){
-        elementos = new ArrayList();
+        content = new ArrayList();
     }
     public void addElemento(T elemento){
-        elementos.add(elemento);
+        content.add(elemento);
     }
 
     public T getElemento() {
-        if (elementos.size() == 0) {
+        if (content.size() == 0) {
             return null;
         } else {
-            T elemento = elementos.remove(0);
+            T elemento = content.remove(0);
             return elemento;
         }
     }
