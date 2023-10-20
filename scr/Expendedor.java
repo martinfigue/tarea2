@@ -33,7 +33,7 @@ public class Expendedor{
         }
     }
 
-    public Producto comprarProducto(Moneda m, int n){
+    public Producto comprarProducto(Moneda m, int n) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException {
         int x = 0;
         if (m == null){
             throw new PagoIncorrectoException("Vuelva a ingresar una moneda válida");
@@ -43,8 +43,8 @@ public class Expendedor{
         }
 
         if((n == COCA || n == SPRITE || n == FANTA || n == SNICKERS || n == SUPER8) && x < precio){
-            throw new PagoInsuficienteException("Pago insuficiente");
             monVu.addMoneda(m);
+            throw new PagoInsuficienteException("Pago insuficiente");
         }
         if(n==COCA  && m!=null && x>=precio){
             Bebida c = coca.getBebida();

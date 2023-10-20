@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3de113d-91d9-422d-8166-c41f8359c4e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/CompradorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scr/.idea/tarea2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scr/.idea/tarea2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ExpendedorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ExpendedorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/Expendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/scr/Expendedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,6 +83,7 @@
       <workItem from="1697653090772" duration="4405000" />
       <workItem from="1697724661503" duration="2368000" />
       <workItem from="1697728833944" duration="4156000" />
+      <workItem from="1697761683636" duration="1717000" />
     </task>
     <servers />
   </component>
