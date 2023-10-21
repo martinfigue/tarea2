@@ -19,7 +19,7 @@ public class Main {
             System.out.println(i.queConsumiste() + ", " + c.cuantoVuelto());
         }
         catch (Exception NoHayProductoException) {
-                System.out.println("No hay mas de este producto");
+                System.out.println("No hay más de este producto");
         }
         try {
             Expendedor exp = new Expendedor(5, 700);

@@ -9,12 +9,11 @@ public enum Precios{
     PRECIOCOCA(700), PRECIOSPRITE(700), PRECIOFANTA(700), PRECIOSNICKERS(900), PRECIOSUPER8(300);
 
     /** Los precios de cada producto
-     *
-     * @param precio asocia un precio a cada constante
      */
 
     private final int precio;
-
+    /** @param precio asocia un precio a cada constante
+     */
     Precios(int precio){
         this.precio = precio;
     }

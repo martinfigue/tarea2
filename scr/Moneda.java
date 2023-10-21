@@ -1,3 +1,9 @@
+/**
+ * Las monedas del trabajo
+ * @author ignaciodiaz
+ * @author martinfigueroa
+ */
+
 abstract class Moneda implements Comparable<Moneda>{
     public Moneda(){
 
