@@ -12,12 +12,16 @@ public enum Precios{
      */
 
     private final int precio;
-    /** @param precio asocia un precio a cada constante
+    /** Es un constructor
+     * @param precio asocia un precio a cada constante
      */
     Precios(int precio){
         this.precio = precio;
     }
 
+    /** Retorna el precio del producto
+     * @return el precio del producto
+     */
     public int getPrecio(){
         return precio;
     }
