@@ -12,7 +12,7 @@ public class Deposito<T>{
     }
 
     /**
-     * Agrega un elemnto al depósito
+     * Agrega un elemento al depósito
      * @param elemento el elemento que queremos agregar al depósito
      */
     public void addElemento(T elemento){
