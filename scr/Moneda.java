@@ -8,6 +8,9 @@ abstract class Moneda implements Comparable<Moneda>{
     public Moneda(){
 
     }
+
+    /** @return la dirección a la moneda y la usaremos como número de serie
+     */
     public Moneda getSerie(){
         return this;
     }
@@ -16,6 +19,9 @@ abstract class Moneda implements Comparable<Moneda>{
     public String toString() {
         return this.getSerie() + " " + this.getValor();
     }
+
+    /** @return el valor de la moneda
+     */
 
     public abstract int getValor();
 
