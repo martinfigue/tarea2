@@ -12,6 +12,7 @@ public class Deposito<T>{
     }
 
     /**
+     * Agrega un elemnto al depósito
      * @param elemento el elemento que queremos agregar al depósito
      */
     public void addElemento(T elemento){
@@ -19,6 +20,7 @@ public class Deposito<T>{
     }
 
     /**
+     * Retira un elemento del depósito
      * @return el producto que queremos retirar del depósito
      */
     public T getElemento() {
